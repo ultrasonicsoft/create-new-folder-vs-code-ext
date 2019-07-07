@@ -1,61 +1,15 @@
-# create-new-folder README
+# Create New Folder in VS Code extension
 
-This is the README for your extension "create-new-folder". After writing up a brief description, we recommend including the following sections.
+This extension creates new folder in VS Code Workspace.
 
-## Features
+## Setup
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+1. Clone repository: `git clone https://github.com/ultrasonicsoft/create-new-folder-vs-code-ext.git`
+2. Install packages by running `npm install` in repository
+3. Open extension code in VS Code and press F5 to run extension. It will launch new VS Code window.
+4. Launch Command Palette (⇧⌘P) in Mac and type `Create New Folder` in search bar and press Enter to execute.
+5. It will create new folder with name `New Folder`
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
 
 ### For more information
 
